@@ -13,5 +13,5 @@ VLA model, A local, offline‑running adaptation of NVIDIA’s Alpamayo R1 proje
 | Chain‑of‑thought  | Adapt speed for the left curve ahead   |
 | minADE            | 1.8058 m                               |
 
-<img src="images/result_alpamayo.webp" width="50%" alt="alpamayo result">
+<img src="images/result_alpamayo.webp" width="70%" alt="alpamayo result">
 
