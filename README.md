@@ -3,5 +3,5 @@ VLA model, A local, offline‑running adaptation of NVIDIA’s Alpamayo-R1 proje
 
 ## Visualization 
 
-<img src="images/result_alpamayo.png" width="50%" alt="alpamayo result">
+<img src="images/result_alpamayo.webp" width="50%" alt="alpamayo result">
 
