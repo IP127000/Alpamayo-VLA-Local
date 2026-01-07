@@ -19,7 +19,13 @@ VLA model, A local, offline‑running adaptation of NVIDIA’s Alpamayo R1 proje
 
 ```bash
 git clone https://github.com/IP127000/Alpamayo-VLA-Local.git
-Alpamayo-VLA-Local
+```
+```bash
+cd Alpamayo-VLA-Local
+```
+```bash
 pip install -r requirements.txt
+```
+```bash
 python inference.py
 ```
