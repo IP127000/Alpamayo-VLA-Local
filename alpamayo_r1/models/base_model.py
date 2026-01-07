@@ -204,7 +204,7 @@ class ReasoningVLAConfig(PretrainedConfig):
 
     def __init__(
         self,
-        vlm_name_or_path: str = "Qwen/Qwen3-VL-8B-Instruct",
+        vlm_name_or_path: str = "/mnt/models/qwen3_8B",
         vlm_backend: str = "qwenvl3",
         traj_tokenizer_cfg: dict[str, Any] | None = None,
         hist_traj_tokenizer_cfg: dict[str, Any] | None = None,
