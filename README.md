@@ -3,12 +3,12 @@ VLA model, a local, offline‑running adaptation of NVIDIA’s Alpamayo R1 proje
 
 ## Visualization 
 
-| 输入字段          | 值                                     |
+| paras             | values                                 |
 |-------------------|----------------------------------------|
 | clip‑id           | eed514a0‑a366‑4550‑b9bd‑4c296c531511   |
 | t0‑us             | 100000                                 |
 
-| 结果          | 值                                     |
+| result            | values                                 |
 |-------------------|----------------------------------------|
 | Chain‑of‑thought  | Adapt speed for the left curve ahead   |
 | minADE            | 1.8058 m                               |
