@@ -89,7 +89,7 @@ class PhysicalAIAVDatasetInterface():
         return self.clip_index.at[clip_id, "chunk"]
 
     def get_clip_feature(self, clip_id: str, feature: str, types: str) -> Any:
-        base_url="/mnt/hanluzhi/alpamayo/datas/"
+        base_url="/mnt/alpamayo/datas/"
         chunk_filename = self.features.get_chunk_feature_filename(
             self.get_clip_chunk(clip_id), feature
         )
