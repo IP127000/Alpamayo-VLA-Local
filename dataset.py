@@ -98,7 +98,7 @@ class PhysicalAIAVDatasetInterface():
         if types=="egomotion":
             chunk_filename=f"{base_url}{base}/{clip_id}.egomotion.parquet"
             egomotion_df = pd.read_parquet(chunk_filename)
-            return egomotion.EgomotionState.from_egomotion_df(egomotion_df).create_interpolator(egomotion_df["timestamp"].to
+            return egomotion.EgomotionState.from_egomotion_df(egomotion_df).create_interpolator(egomotion_df["timestamp"].to_numpy())
         if types=="camera":
             video_path=f"{base_url}{base}/{clip_id}.{fea}.mp4"
             timestamps_path=f"{base_url}{base}/{clip_id}.{fea}.timestamps.parquet"
