@@ -1,5 +1,5 @@
 # Alpamayo-1-Local
-VLA model, a local, offline‑running adaptation of NVIDIA’s Alpamayo R1. Run models, process data and visualize results entirely on your own machine.
+VLA model, a local, offline‑running adaptation of NVIDIA’s Alpamayo 1. Run models, process data and visualize results entirely on your own machine.
 
 ## Visualization 
 
