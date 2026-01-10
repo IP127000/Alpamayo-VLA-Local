@@ -8,7 +8,7 @@ import pathlib
 import types
 import zipfile
 from typing import Any, Iterable
-
+import os
 import pandas as pd
 import egomotion, video
 
