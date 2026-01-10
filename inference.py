@@ -57,7 +57,7 @@ class Config:
     device: str = "cuda"  
     dtype: torch.dtype = torch.bfloat16
 
-def extract_frame_cv2(video_path, timestamp_ust,output_path,*,verbose = True,) :
+def extract_frame_cv2(video_path, timestamp_us,output_path,*,verbose = True,) :
     if not video_path.is_file():
         raise FileNotFoundError(f"Video file does not exist: {video_path}")
 
