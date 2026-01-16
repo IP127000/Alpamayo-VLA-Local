@@ -17,7 +17,7 @@ VLA model, a local, offline‑running adaptation of NVIDIA’s Alpamayo 1. Run m
 <img src="images/result_alpamayo.webp" width="70%" alt="alpamayo result">
 
 ## Usage
-env
+###env
 ```bash
 python==3.12
 cuda==12.1
