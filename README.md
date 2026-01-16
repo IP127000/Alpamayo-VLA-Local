@@ -6,7 +6,7 @@ VLA model, a local, offline‑running adaptation of NVIDIA’s Alpamayo 1. Run m
 | paras             | values                                 |
 |-------------------|----------------------------------------|
 | clip‑id           | eed514a0‑a366‑4550‑b9bd‑4c296c531511   |
-| t0‑us             | 100000                                 |
+| t0‑us             | 10000000                               |
 
 | result            | values                                 |
 |-------------------|----------------------------------------|
